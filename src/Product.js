@@ -3,19 +3,19 @@ import axios from 'axios';
 const Product = () => {
   const [products, setProducts] = useState([
     {
-      name: 'Levis Shirt',
-      price: 1499,
-      description: 'This is a levis shirt',
-      category: 'Clothes',
-      status: 'Available',
-    },
-    {
-      name: 'Remote Control Car',
-      price: 899,
-      description: 'This is remote control car for childern',
-      category: 'Toys',
-      status: 'Unavailable',
-    },
+    name: 'US polo Shirt',
+    price: 1499,
+    description: 'This is a US polo shirt',
+    category: 'Clothes',
+    status: 'Available',
+  },
+  {
+    name: 'Baby Car',
+    price: 899,
+    description: 'This is babycar for childern',
+    category: 'Toys',
+    status: 'Unavailable',
+  },
   ]);
   useEffect(() => {
     getProducts();
