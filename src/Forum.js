@@ -5,11 +5,11 @@ import axios from 'axios';
 const Forum = () => {
   const [forums, setForums] = useState([
     {
-      title: 'The wings of fire',
-      author: 'Abdul Kalam',
-      dateOfAdding: '2022-03-20',
-      body: 'It is a book written by Abdul Kalam',
-    },
+    title: 'Reservation',
+    author: 'Ambedkar',
+    dateOfAdding: '2022-03-20',
+    body: 'It is a help provided by over constitution to the backward people.',
+  },
   ]);
   const getForums = () => {
     axios
